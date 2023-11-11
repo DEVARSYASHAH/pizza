@@ -61,4 +61,25 @@ p, li {
   display: table;
   clear: both;
 }
- 
+/* Css code for slider */
+.slider {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 400px;
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.slide:first-child {
+  display: block;
+}
